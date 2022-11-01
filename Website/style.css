@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.navbar .logo
+{
+    width: 140px;
+    height: auto;
+    padding: 10px;
+
+}
+.navbar ul
+{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a
+{
+    font-size: 20px;
+    color:white ;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar ul li a:hover
+{
+    background: red;
+    border-radius: 5px;
+}
+.sec
+{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+}
+h1
+{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 900px;
+    text-align: center;
+}
+h2
+{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 900px;
+    text-align: center;
+}
+.btn1
+{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(197, 99, 99);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 25px;
+    margin-left: 300px;
+ }
+ .btn2
+{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(197, 99, 99);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 25px;
+    margin-left: 30px;
+  
+ }
